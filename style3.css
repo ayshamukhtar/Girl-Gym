@@ -1,0 +1,24 @@
+/* General page styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(233, 215, 202);
+  color: #2103249e;
+  margin: 0;
+  padding: 0;
+}
+.services-image img {
+  width: 250px; /* smaller image size */
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #8e44ad;
+}
+
+.services-text {
+  flex: 1;
+}
+
+/* Reverse project layout */
+.services.reverse {
+  flex-direction: column-reverse;
+}
